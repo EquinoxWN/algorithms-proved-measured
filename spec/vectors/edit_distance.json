@@ -1,0 +1,165 @@
+{
+ "algorithm": "edit_distance",
+ "cases": [
+  {
+   "name": "case 0",
+   "input": {
+    "a": "",
+    "b": ""
+   },
+   "expect": 0
+  },
+  {
+   "name": "case 1",
+   "input": {
+    "a": "",
+    "b": "abc"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 2",
+   "input": {
+    "a": "abc",
+    "b": ""
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 3",
+   "input": {
+    "a": "same",
+    "b": "same"
+   },
+   "expect": 0
+  },
+  {
+   "name": "case 4",
+   "input": {
+    "a": "kitten",
+    "b": "sitting"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 5",
+   "input": {
+    "a": "flaw",
+    "b": "lawn"
+   },
+   "expect": 2
+  },
+  {
+   "name": "case 6",
+   "input": {
+    "a": "",
+    "b": "bbcaaa"
+   },
+   "expect": 6
+  },
+  {
+   "name": "case 7",
+   "input": {
+    "a": "c",
+    "b": "ccc"
+   },
+   "expect": 2
+  },
+  {
+   "name": "case 8",
+   "input": {
+    "a": "",
+    "b": "caa"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 9",
+   "input": {
+    "a": "bbbb",
+    "b": "ab"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 10",
+   "input": {
+    "a": "c",
+    "b": ""
+   },
+   "expect": 1
+  },
+  {
+   "name": "case 11",
+   "input": {
+    "a": "c",
+    "b": "aaccba"
+   },
+   "expect": 5
+  },
+  {
+   "name": "case 12",
+   "input": {
+    "a": "c",
+    "b": "ca"
+   },
+   "expect": 1
+  },
+  {
+   "name": "case 13",
+   "input": {
+    "a": "bbc",
+    "b": "bba"
+   },
+   "expect": 1
+  },
+  {
+   "name": "case 14",
+   "input": {
+    "a": "cacbc",
+    "b": "acacb"
+   },
+   "expect": 2
+  },
+  {
+   "name": "case 15",
+   "input": {
+    "a": "cbcb",
+    "b": "cc"
+   },
+   "expect": 2
+  },
+  {
+   "name": "case 16",
+   "input": {
+    "a": "cbcca",
+    "b": "bccabb"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 17",
+   "input": {
+    "a": "aabcaa",
+    "b": "bca"
+   },
+   "expect": 3
+  },
+  {
+   "name": "case 18",
+   "input": {
+    "a": "bbcca",
+    "b": "cbb"
+   },
+   "expect": 4
+  },
+  {
+   "name": "case 19",
+   "input": {
+    "a": "caaccb",
+    "b": "aaa"
+   },
+   "expect": 4
+  }
+ ]
+}

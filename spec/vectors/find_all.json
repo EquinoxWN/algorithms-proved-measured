@@ -1,0 +1,275 @@
+{
+ "algorithm": "find_all",
+ "cases": [
+  {
+   "name": "case 0",
+   "input": {
+    "text": "abc",
+    "pattern": ""
+   },
+   "expect": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "case 1",
+   "input": {
+    "text": "",
+    "pattern": "a"
+   },
+   "expect": []
+  },
+  {
+   "name": "case 2",
+   "input": {
+    "text": "aaaa",
+    "pattern": "aa"
+   },
+   "expect": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "case 3",
+   "input": {
+    "text": "abababab",
+    "pattern": "abab"
+   },
+   "expect": [
+    0,
+    2,
+    4
+   ]
+  },
+  {
+   "name": "case 4",
+   "input": {
+    "text": "abc",
+    "pattern": "abcd"
+   },
+   "expect": []
+  },
+  {
+   "name": "case 5",
+   "input": {
+    "text": "hello world",
+    "pattern": "o"
+   },
+   "expect": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "case 6",
+   "input": {
+    "text": "aabaabaaab",
+    "pattern": "aab"
+   },
+   "expect": [
+    0,
+    3,
+    7
+   ]
+  },
+  {
+   "name": "case 7",
+   "input": {
+    "text": "abbbaaabbabaaaaabbaaaa",
+    "pattern": "baa"
+   },
+   "expect": [
+    3,
+    10,
+    17
+   ]
+  },
+  {
+   "name": "case 8",
+   "input": {
+    "text": "bbabaaaaaabbabbabbbbaaaababaabaaab",
+    "pattern": "ab"
+   },
+   "expect": [
+    2,
+    9,
+    12,
+    15,
+    23,
+    25,
+    28,
+    32
+   ]
+  },
+  {
+   "name": "case 9",
+   "input": {
+    "text": "bbbaabbbababbbbaab",
+    "pattern": "b"
+   },
+   "expect": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13,
+    14,
+    17
+   ]
+  },
+  {
+   "name": "case 10",
+   "input": {
+    "text": "babbababababaabbbabbaabb",
+    "pattern": "bb"
+   },
+   "expect": [
+    2,
+    14,
+    15,
+    18,
+    22
+   ]
+  },
+  {
+   "name": "case 11",
+   "input": {
+    "text": "abaababbbabbabaaaabbbbabbabba",
+    "pattern": "abbb"
+   },
+   "expect": [
+    5,
+    17
+   ]
+  },
+  {
+   "name": "case 12",
+   "input": {
+    "text": "abaaabbbbbabababbabbaabbb",
+    "pattern": "baba"
+   },
+   "expect": [
+    9,
+    11
+   ]
+  },
+  {
+   "name": "case 13",
+   "input": {
+    "text": "abbbabba",
+    "pattern": "bbab"
+   },
+   "expect": [
+    2
+   ]
+  },
+  {
+   "name": "case 14",
+   "input": {
+    "text": "aaaaaaaaaaaaaababbaaabbbaa",
+    "pattern": "aba"
+   },
+   "expect": [
+    13
+   ]
+  },
+  {
+   "name": "case 15",
+   "input": {
+    "text": "baaaaababaabbaaa",
+    "pattern": "ab"
+   },
+   "expect": [
+    5,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "case 16",
+   "input": {
+    "text": "baabbaabbababaaaba",
+    "pattern": "ba"
+   },
+   "expect": [
+    0,
+    4,
+    8,
+    10,
+    12,
+    16
+   ]
+  },
+  {
+   "name": "case 17",
+   "input": {
+    "text": "abaabbbaabbbbbabbbbb",
+    "pattern": "ab"
+   },
+   "expect": [
+    0,
+    3,
+    8,
+    14
+   ]
+  },
+  {
+   "name": "case 18",
+   "input": {
+    "text": "baaababbaabbaaabbaabbbbabbbbabbbbababab",
+    "pattern": "ab"
+   },
+   "expect": [
+    3,
+    5,
+    9,
+    14,
+    18,
+    23,
+    28,
+    33,
+    35,
+    37
+   ]
+  },
+  {
+   "name": "case 19",
+   "input": {
+    "text": "babbbabaaaaabaababaababababbaabbabbabbab",
+    "pattern": "a"
+   },
+   "expect": [
+    1,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    16,
+    18,
+    19,
+    21,
+    23,
+    25,
+    28,
+    29,
+    32,
+    35,
+    38
+   ]
+  }
+ ]
+}

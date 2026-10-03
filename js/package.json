@@ -1,0 +1,14 @@
+{
+  "name": "algorithms-proved-measured",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stops 'it passed the sample input' from meaning 'it's correct': classic algorithms in three languages, each with a correctness argument and its real running time measured.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "node --check src/index.js && node --check src/algorithms.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

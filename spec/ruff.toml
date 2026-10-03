@@ -1,0 +1,6 @@
+# The vector generator shares the Python package's lint rules.
+extend = "../python/pyproject.toml"
+
+[lint.per-file-ignores]
+# Seeded randomness makes the vectors reproducible; it is not used for security.
+"*.py" = ["S311"]
