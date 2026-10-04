@@ -66,7 +66,7 @@ One implementation per language, behind the same signature:
 
 ## Run it
 
-Needs JDK 21+ with Maven, Python 3.11+ and Node.js 22+.
+Needs JDK 21+ with Maven, Python 3.11+ and Node.js 24+.
 
 ```bash
 make setup    # install the Python package and dev tools

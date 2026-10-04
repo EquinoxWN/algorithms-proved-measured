@@ -4,7 +4,7 @@ Thanks for helping. This is a Java, Python and JavaScript project; issues and pu
 
 ## Set up and check your change
 
-Needs JDK 21+ with Maven, Python 3.11+, Node.js 22+. Caches and virtual environments stay in git-ignored folders inside the repo.
+Needs JDK 21+ with Maven, Python 3.11+, Node.js 24+. Caches and virtual environments stay in git-ignored folders inside the repo.
 
 ```bash
 make setup   # install dependencies
