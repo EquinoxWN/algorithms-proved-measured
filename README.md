@@ -7,6 +7,12 @@
 
 Part of my **CS Foundations** list · Java · Python · JS · core project
 
+## Proof it works
+
+The shared vectors are checked to be up to date, then replayed with 500 random oracle comparisons per algorithm in each language: 106 Java, 109 Python and 107 JavaScript tests pass. Dependencies have no known vulnerabilities (the Java test dependency was upgraded during this check):
+
+![Vectors check, mvn verify, pytest, npm test and audits](docs/proof/tests.jpg)
+
 ## Architecture
 
 **What M1 runs today:**
