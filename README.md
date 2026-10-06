@@ -3,7 +3,7 @@
 [![ci](https://github.com/EquinoxWN/algorithms-proved-measured/actions/workflows/ci.yml/badge.svg)](https://github.com/EquinoxWN/algorithms-proved-measured/actions/workflows/ci.yml)
 ![status](https://img.shields.io/badge/status-M1%20done%2C%20M2%20in%20progress-yellow)
 
-> Stops 'it passed the sample input' from meaning 'it's correct': classic algorithms in three languages, each with a correctness argument and its real running time measured.
+> Stops 'it passed the sample input' from meaning 'it's correct': five classic algorithms in Java, Python and JavaScript, each checked against shared vectors and a brute-force oracle on random inputs.
 
 Part of my **CS Foundations** list · Java · Python · JS · core project
 
@@ -46,11 +46,11 @@ _Steps 1 and 2 are built and tested (M1); the rest is on the [roadmap](#roadmap)
 
 ## Tech stack
 
-| Area | Tools |
-|---|---|
-| Code | Java, Python, JavaScript behind identical signatures |
-| Tests | shared vectors, brute-force oracles for small inputs, random testing |
-| Analysis | log-log complexity fitting in Python + matplotlib |
+| Area | In M1 | Planned |
+|---|---|---|
+| Code | Java, Python, JavaScript behind identical signatures | - |
+| Tests | Shared vectors, brute-force oracles, random testing | - |
+| Analysis | - | Log-log complexity fitting in Python + matplotlib |
 
 One implementation per language, behind the same signature:
 
@@ -156,7 +156,7 @@ What this repo must show before it counts as done:
 ## Why it matters
 
 - **Interview angle:** Every coding round, including proving why the solution is correct and where its real bottleneck is.
-- **Upstream I'm contributing to:** TheAlgorithms (Java / Python): fixes and tests for existing implementations, not new copies.
+- **Upstream I'd like to contribute to:** TheAlgorithms (Java / Python): fixes and tests for existing implementations, not new copies.
 
 ## Design docs
 
