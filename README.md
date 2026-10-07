@@ -44,6 +44,12 @@ _Steps 1 and 2 are built and tested (M1); the rest is on the [roadmap](#roadmap)
 5. Where theory and measurement disagree (quicksort on sorted input, hashing with many collisions) the write-up explains why.
 6. A pattern index maps problem shapes (two pointers, monotonic stack, interval DP) to algorithms, doubling as interview prep.
 
+## Who it helps
+
+- **Who:** Students preparing for interviews and engineers who write algorithmic code in Java, Python or JavaScript.
+- **The problem:** An implementation can pass the sample inputs and still be wrong on edge cases nobody thought to write down.
+- **How to use it:** Run `make test` to check the algorithms (binary search, merge sort, KMP search, Dijkstra and more) against shared test vectors and a brute-force oracle on random inputs, then reuse the vector-plus-oracle pattern to test your own implementations.
+
 ## Tech stack
 
 | Area | In M1 | Planned |
