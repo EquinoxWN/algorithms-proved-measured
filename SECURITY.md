@@ -24,4 +24,4 @@ This project is pre-1.0. Only the latest commit on `main` receives fixes.
 - Every GitHub Action is pinned to a full commit SHA, and workflows run with read-only
   permissions and without persisted credentials.
 - Dependabot proposes dependency and action updates weekly as reviewable pull requests.
-- CI runs lint, tests and a known-vulnerability check (Dependabot alerts, pip-audit, npm audit) on every push and pull request.
+- CI runs lint, tests and a known-vulnerability check (pip-audit, npm audit, and OSV-Scanner on a CycloneDX SBOM of the Maven dependencies) on every push and pull request.
